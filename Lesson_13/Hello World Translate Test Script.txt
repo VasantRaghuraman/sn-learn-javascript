@@ -21,7 +21,7 @@ switch (language) {
     break;
 
   case "English":
-    greeting = "Hallo Welt";
+    greeting = "Hello World";
     break;
 
   default:
