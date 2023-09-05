@@ -1,0 +1,33 @@
+//
+// L13S02 - Multiple language translate
+//
+// Using the switch statement
+
+var greeting = "Hello World";
+var language = "Spanish";
+
+switch (language) {
+
+  case "Spanish":
+    greeting = 'Hola Mundo';
+    break;
+
+  case "French":
+    greeting = "Bonjour le monde";
+    break;
+
+  case "German": 
+    greeting = "Hallo Welt";
+    break;
+
+  case "English":
+    greeting = "Hallo Welt";
+    break;
+
+  default:
+  greeting = 'Undefined Language';
+  break;
+
+}
+
+gs.info('Language= ' + language + ' Greeting= ' + greeting);
